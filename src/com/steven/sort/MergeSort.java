@@ -37,7 +37,7 @@ public class MergeSort {
     // 子序列排序
     public static void merge(int[] arr, int[] tmpArr, int L, int mid, int R) {
 //        int[] tempArr = new int[R - L + 1];
-        int i = 0;
+//        int i = 0;
         int p1 = L;
         int p2 = mid + 1;
         int length = R - L + 1;
