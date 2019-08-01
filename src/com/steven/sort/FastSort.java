@@ -10,7 +10,7 @@ package com.steven.sort;
 public class FastSort {
 
     public static void main(String[] args) {
-        int[] arr = new int[]{11,1,34,45,23,4,234,23, 345};
+        int[] arr = new int[]{11,1,34,45,23,4,234,23, 345,12,15};
         quickSort(arr);
         for (int a :
                 arr) {
